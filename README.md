@@ -53,6 +53,7 @@ Test scripts developed for One Drive project:
 10.	Download both versions and compare the dissimilarity
 11.	Delete the file
 12.	Close the browser
+
 Frameworks used to develop One Drive project:
 
 1.	Maven Project: Dependencies added in pom.xml which required for the project
@@ -60,5 +61,6 @@ Frameworks used to develop One Drive project:
 3.	Implementation: Page factory
 4.	Framework: TestNG
 5.	External jars: TestNG 6.14.3, Selenium-java 3.11.0, Selenium-server 3.11.0, Extent report 2.41.0
+
 Used Extent report to generate a graphical look and feel of the report. 
 After execution, automatically the report will pop up.
