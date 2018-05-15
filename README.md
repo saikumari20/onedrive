@@ -1,10 +1,7 @@
-# onedrive
+# OneDrive
 
 
-#Read Me
-
-This is the Read me document to open One Drive technical assessment for Konica Minolta Business Solutions U.S.A., Inc.
-
+This is the Read-me document to open One Drive technical assessment for Konica Minolta Business Solutions U.S.A., Inc..
 
 Technical requirements to open One Drive technical assessment:
 
