@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://onedrive.live.com"/>
+    <classes>
+      <class name="com.live.onedrive.start.TestRunner">
+        <methods>
+          <include name="close"/>
+          <include name="businessLogicValidation"/>
+          <include name="applicationLogOut"/>
+          <include name="init"/>
+          <include name="startUp"/>
+        </methods>
+      </class> <!-- com.live.onedrive.start.TestRunner -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

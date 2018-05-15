@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="171489" started-at="2018-05-12T19:32:02Z" finished-at="2018-05-12T19:34:54Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="171489" started-at="2018-05-12T19:32:02Z" finished-at="2018-05-12T19:34:54Z">
+      <class name="com.live.onedrive.start.TestRunner">
+        <test-method status="PASS" signature="startUp(java.lang.String, java.lang.String)[pri:0, instance:com.live.onedrive.start.TestRunner@491cc5c9]" name="startUp" is-config="true" duration-ms="11922" started-at="2018-05-12T19:32:02Z" finished-at="2018-05-12T19:32:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://onedrive.live.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:com.live.onedrive.start.TestRunner@491cc5c9]" name="init" is-config="true" duration-ms="296" started-at="2018-05-12T19:32:14Z" finished-at="2018-05-12T19:32:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="applicationLogIn()[pri:1, instance:com.live.onedrive.start.TestRunner@491cc5c9]" name="applicationLogIn" duration-ms="29820" started-at="2018-05-12T19:32:15Z" finished-at="2018-05-12T19:32:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLogIn -->
+        <test-method status="PASS" signature="businessLogicValidation()[pri:2, instance:com.live.onedrive.start.TestRunner@491cc5c9]" name="businessLogicValidation" duration-ms="118061" started-at="2018-05-12T19:32:44Z" finished-at="2018-05-12T19:34:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- businessLogicValidation -->
+        <test-method status="PASS" signature="applicationLogOut()[pri:3, instance:com.live.onedrive.start.TestRunner@491cc5c9]" name="applicationLogOut" duration-ms="6438" started-at="2018-05-12T19:34:43Z" finished-at="2018-05-12T19:34:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationLogOut -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.live.onedrive.start.TestRunner@491cc5c9]" name="close" is-config="true" duration-ms="4876" started-at="2018-05-12T19:34:49Z" finished-at="2018-05-12T19:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.live.onedrive.start.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
